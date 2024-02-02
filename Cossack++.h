@@ -1,99 +1,99 @@
 #pragma once
 
-#define байдужий unsigned
-#define небайдужий signed
-#define цілий int
-#define джура short
-#define козарлюга long
-#define розмір size_t
-#define дріб float
-#define великий_дріб double
+#define Р±Р°Р№РґСѓР¶РёР№ unsigned
+#define РЅРµР±Р°Р№РґСѓР¶РёР№ signed
+#define С†С–Р»РёР№ int
+#define РґР¶СѓСЂР° short
+#define РєРѕР·Р°СЂР»СЋРіР° long
+#define СЂРѕР·РјС–СЂ size_t
+#define РґСЂС–Р± float
+#define РІРµР»РёРєРёР№_РґСЂС–Р± double
 
-#define судження bool
-#define істинна true
-#define хиба false
+#define СЃСѓРґР¶РµРЅРЅСЏ bool
+#define С–СЃС‚РёРЅРЅР° true
+#define С…РёР±Р° false
 
-#define казна_що void
-#define Бог_тобі_суддя auto
+#define РєР°Р·РЅР°_С‰Рѕ void
+#define Р‘РѕРі_С‚РѕР±С–_СЃСѓРґРґСЏ auto
 
-#define я_тебе_породив new
-#define я_тебе_і_вбю delete
-#define породити malloc
-#define породити_кількох calloc
-#define породити_байстрюків alloca
-#define переродити realloc
-#define вбити free
-#define турецький_султан nullptr
+#define СЏ_С‚РµР±Рµ_РїРѕСЂРѕРґРёРІ new
+#define СЏ_С‚РµР±Рµ_С–_РІР±СЋ delete
+#define РїРѕСЂРѕРґРёС‚Рё malloc
+#define РїРѕСЂРѕРґРёС‚Рё_РєС–Р»СЊРєРѕС… calloc
+#define РїРѕСЂРѕРґРёС‚Рё_Р±Р°Р№СЃС‚СЂСЋРєС–РІ alloca
+#define РїРµСЂРµСЂРѕРґРёС‚Рё realloc
+#define РІР±РёС‚Рё free
+#define С‚СѓСЂРµС†СЊРєРёР№_СЃСѓР»С‚Р°РЅ nullptr
 
-#define буква char
-#define слово char*
-#define кінець_слова '\0'
+#define Р±СѓРєРІР° char
+#define СЃР»РѕРІРѕ char*
+#define РєС–РЅРµС†СЊ_СЃР»РѕРІР° '\0'
 
-#define сталий const
-#define змінний mutable
+#define СЃС‚Р°Р»РёР№ const
+#define Р·РјС–РЅРЅРёР№ mutable
 
-#define коли if
-#define інакше else
-#define трудись do
-#define допоки while
-#define круговерть for
-#define піти_на goto
+#define РєРѕР»Рё if
+#define С–РЅР°РєС€Рµ else
+#define С‚СЂСѓРґРёСЃСЊ do
+#define РґРѕРїРѕРєРё while
+#define РєСЂСѓРіРѕРІРµСЂС‚СЊ for
+#define РїС–С‚Рё_РЅР° goto
 
-#define стій break
-#define рушай continue
-#define як_завжди default
-#define підсумок return
-#define не_погордуй [[nodiscard]]
+#define СЃС‚С–Р№ break
+#define СЂСѓС€Р°Р№ continue
+#define СЏРє_Р·Р°РІР¶РґРё default
+#define РїС–РґСЃСѓРјРѕРє return
+#define РЅРµ_РїРѕРіРѕСЂРґСѓР№ [[nodiscard]]
 
-#define перевірити switch
-#define коли_він case
+#define РїРµСЂРµРІС–СЂРёС‚Рё switch
+#define РєРѕР»Рё_РІС–РЅ case
 
-#define або_так ?
-#define або_сяк :
+#define Р°Р±Рѕ_С‚Р°Рє ?
+#define Р°Р±Рѕ_СЃСЏРє :
 
-#define зачати typedef
-#define кіш struct
-#define рід class
-#define гурт union
-#define перелік enum
-#define народ typename
+#define Р·Р°С‡Р°С‚Рё typedef
+#define РєС–С€ struct
+#define СЂС–Рґ class
+#define РіСѓСЂС‚ union
+#define РїРµСЂРµР»С–Рє enum
+#define РЅР°СЂРѕРґ typename
 
-#define народний public
-#define братський protected
-#define осібний private
-#define я this
-#define побратим friend
+#define РЅР°СЂРѕРґРЅРёР№ public
+#define Р±СЂР°С‚СЃСЊРєРёР№ protected
+#define РѕСЃС–Р±РЅРёР№ private
+#define СЏ this
+#define РїРѕР±СЂР°С‚РёРј friend
 
-#define вийти_на_герць try
-#define коли_загину_від catch
-#define голосити throw
-#define оплакувати throw
+#define РІРёР№С‚Рё_РЅР°_РіРµСЂС†СЊ try
+#define РєРѕР»Рё_Р·Р°РіРёРЅСѓ_РІС–Рґ catch
+#define РіРѕР»РѕСЃРёС‚Рё throw
+#define РѕРїР»Р°РєСѓРІР°С‚Рё throw
 
-#define межи_рядків inline
-#define єдиний static
-#define нерушимий constexpr
+#define РјРµР¶Рё_СЂСЏРґРєС–РІ inline
+#define С”РґРёРЅРёР№ static
+#define РЅРµСЂСѓС€РёРјРёР№ constexpr
 
-#define впровадити using
-#define звичай namespace
+#define РІРїСЂРѕРІР°РґРёС‚Рё using
+#define Р·РІРёС‡Р°Р№ namespace
 
-// На честь славного кошового отамана Бублика В.В.
-#define взірець template
+// РќР° С‡РµСЃС‚СЊ СЃР»Р°РІРЅРѕРіРѕ РєРѕС€РѕРІРѕРіРѕ РѕС‚Р°РјР°РЅР° Р‘СѓР±Р»РёРєР° Р’.Р’.
+#define РІР·С–СЂРµС†СЊ template
 
-#define заморський extern
+#define Р·Р°РјРѕСЂСЃСЊРєРёР№ extern
 
-#define похід main
-#define перемога 0
-#define військо_положено 1
+#define РїРѕС…С–Рґ main
+#define РїРµСЂРµРјРѕРіР° 0
+#define РІС–Р№СЃСЊРєРѕ_РїРѕР»РѕР¶РµРЅРѕ 1
 
-#define Січовий std
+#define РЎС–С‡РѕРІРёР№ std
 
 #ifdef _WIN32
 
 #include <Windows.h>
-#define державною_будь_ласка SetConsoleOutputCP(1251)
+#define РґРµСЂР¶Р°РІРЅРѕСЋ_Р±СѓРґСЊ_Р»Р°СЃРєР° SetConsoleOutputCP(1251)
 
 #else
 
-#define державною_будь_ласка
+#define РґРµСЂР¶Р°РІРЅРѕСЋ_Р±СѓРґСЊ_Р»Р°СЃРєР°
 
 #endif
